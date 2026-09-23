@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Pipeline
 
 ## Run
@@ -24,3 +25,28 @@ The pipeline requests the first five pagination pages from `books.toscrape.com`,
 ## SQL evidence
 
 `queries.sql` contains six executed queries collectively covering `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, `DISTINCT`, `IN`, `BETWEEN`, and `JOIN`. The pipeline prints each query's output. It also reads the SQL JOIN with `pd.read_sql()` and reproduces the same result with `pandas.merge()`; the script asserts equality.
+=======
+# Module 1 - Data Pipeline
+
+## Objective
+
+Build a reproducible raw-to-relational pipeline:
+
+`books.toscrape.com -> requests/BeautifulSoup -> clean pandas DataFrame -> GBP/INR conversion -> SQLite -> SQL -> pandas validation`
+
+## Scope
+
+This implementation scrapes:
+
+- Travel
+- Mystery
+- Historical Fiction
+
+Each category is followed through all its paginated listing pages until no next page remains. The final dataset therefore exceeds the required 60 books.
+
+## Fixed conversion
+
+**1 GBP = 105.50 INR**
+
+This is the required project-defined constant.
+>>>>>>> a4a6ce65e9b1429e1138e7b9893d1b12e7f926f9

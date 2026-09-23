@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas>=2.2
 numpy>=1.26
 requests>=2.31
@@ -17,3 +18,8 @@ chromadb>=0.5
 sentence-transformers>=3.0
 langchain-core>=0.3
 langchain-groq>=0.2
+=======
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pandas>=2.0.0
+>>>>>>> a4a6ce65e9b1429e1138e7b9893d1b12e7f926f9

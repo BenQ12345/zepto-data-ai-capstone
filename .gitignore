@@ -1,9 +1,15 @@
 __pycache__/
 *.py[cod]
 .venv/
+<<<<<<< HEAD
 .env
 .ipynb_checkpoints/
 .DS_Store
 support_assistant/chroma_db/*
 !support_assistant/chroma_db/.gitkeep
 *.log
+=======
+venv/
+.env
+.DS_Store
+>>>>>>> a4a6ce65e9b1429e1138e7b9893d1b12e7f926f9

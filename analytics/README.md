@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analytics Pipeline
 
 ## Execution order
@@ -166,3 +167,8 @@ Among the three baseline classifiers on the fixed stratified test split, **Rando
 - `titanic_best_pipeline.joblib` — complete fitted preprocessing + classifier pipeline.
 - `charts/` — supporting chart artifacts.
 - `results/` — machine-readable metric outputs and generated evidence.
+=======
+# Module 2 - Analytics
+
+This folder is reserved for the analytics module from the capstone specification.
+>>>>>>> a4a6ce65e9b1429e1138e7b9893d1b12e7f926f9

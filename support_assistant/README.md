@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Zepto Support Assistant
 
 ## Required baseline
@@ -103,3 +104,8 @@ docker run --rm -p 7860:7860 zepto-support
 The image leaves `MOCK_LLM=1` by default and runs the FastAPI service at port 7860. The Docker build runs `ingest.py`, so the ChromaDB collection is prepared inside the image.
 
 The optional real-LLM and Hugging Face deployment extensions are not required for grading.
+=======
+# Module 3 - Support Assistant
+
+This folder is reserved for the support assistant module from the capstone specification.
+>>>>>>> a4a6ce65e9b1429e1138e7b9893d1b12e7f926f9
