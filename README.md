@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Zepto Data & AI Platform
 
 Single repository for the three capstone modules:
@@ -81,3 +82,7 @@ git commit -m "Add SQLite queries and pandas validation"
 git checkout main
 git merge --no-ff feature/data-pipeline -m "Merge data pipeline feature"
 ```
+=======
+# zepto-data-pipeline
+Zepto_Data
+>>>>>>> e7dff0ed4a26519d78228e452ee16909ccfad8ed
