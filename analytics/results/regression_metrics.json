@@ -1,8 +1,8 @@
 {
-  "MAE": 18.076952843452236,
-  "RMSE": 27.72373090682537,
-  "R2": 0.5033019623363756,
-  "Adjusted_R2": 0.42214215226062,
-  "Residual spread ratio": 3.50013865214046,
+  "MAE": 18.076952843452226,
+  "RMSE": 27.723730906825363,
+  "R2": 0.5033019623363757,
+  "Adjusted_R2": 0.42214215226062013,
+  "Residual spread ratio": 3.500138652140463,
   "Heteroscedasticity conclusion": "evidence of heteroscedasticity"
 }
